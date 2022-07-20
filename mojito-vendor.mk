@@ -874,6 +874,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
+    vendor.xiaomi.hardware.mlipay@1.0 \
+    vendor.xiaomi.hardware.mlipay@1.1 \
+    vendor.xiaomi.hardware.mtdservice@1.0 \
     libmmrtpdecoder \
     libmmrtpencoder \
     com.qualcomm.qti.dpm.api@1.0_system_ext \
