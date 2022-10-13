@@ -173,7 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mojito/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/xiaomi/mojito/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/xiaomi/mojito/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
-    vendor/xiaomi/mojito/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
     vendor/xiaomi/mojito/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/mojito/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/xiaomi/mojito/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
@@ -709,8 +708,6 @@ PRODUCT_PACKAGES += \
     libmibokeh_712 \
     libminkdescriptor \
     libminksocket \
-    libmlipay \
-    libmlipay@1.1 \
     libmpbase_mojito \
     libnetmgr \
     libnetmgr_common \
@@ -874,9 +871,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    vendor.xiaomi.hardware.mlipay@1.0 \
-    vendor.xiaomi.hardware.mlipay@1.1 \
-    vendor.xiaomi.hardware.mtdservice@1.0 \
     libmmrtpdecoder \
     libmmrtpencoder \
     com.qualcomm.qti.dpm.api@1.0_system_ext \
@@ -930,7 +924,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_vendor.xiaomi.hardware.mlipay \
     vendor.qti.gnss@4.0-service \
     adpl \
     adsprpcd \
@@ -961,7 +954,6 @@ PRODUCT_PACKAGES += \
     loc_launcher \
     lowi-server \
     mi_thermald \
-    mlipayd@1.1 \
     msm_irqbalance \
     netmgrd \
     nv_mac \
